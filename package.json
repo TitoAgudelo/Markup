@@ -1,0 +1,25 @@
+{
+  "name": "Markup",
+  "version": "1.0.0",
+  "description": "Gulp PSD test",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TitoAgudelo/Markup.git"
+  },
+  "author": "Tito Agudelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TitoAgudelo/Markup/issues"
+  },
+  "homepage": "https://github.com/TitoAgudelo/Markup",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0"
+  }
+}
