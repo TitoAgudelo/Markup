@@ -5,8 +5,8 @@
 	<title>Your Website</title>
 	<link rel="stylesheet" type="text/css" href="foundation/bower_components/foundation/css/foundation.css">
 	<link rel="stylesheet" type="text/css" href="css/build/_global.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/font.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/sprite.css">
+	<link rel="stylesheet" type="text/css" href="css/font/font.css">
+	<link rel="stylesheet" type="text/css" href="assets/build/css/sprite.css">
 
 	<!-- font import -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -56,14 +56,63 @@
 				</div>
 			</div>
 		</div>
-		<ul class="small-block-grid-3">
-			<li><!-- Your content goes here --></li>
-			<li><!-- Your content goes here --></li>
-			<li><!-- Your content goes here --></li>
-		</ul>
+		<div class="row">
+			<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-1">
+				<li>
+					<div class="images">
+						<img src="images/src/image1.svg">
+						<h4 class="title">Lorem</h4>
+						<p class="description">Lorem ipsum dorot sit amet didi dada dudu doo. Aliquam at portt titor donec. Plaaecer nisl das. Lorem ipsum dorot sit amet didi dada dudu doo lorem ipsum das.</p>
+						<button class="radius">Read More</button>
+					</div>
+				</li>
+				<li>
+					<div class="images">
+						<img src="images/src/image2.svg">
+						<h4 class="title">Ipsum</h4>
+						<p class="description">Lorem ipsum dorot sit amet didi dada dudu doo. Aliquam at portt titor donec. Plaaecer nisl das. Lorem ipsum dorot sit amet didi dada dudu lorem das ipsumdoo. </p>
+						<button class="radius">Read More</button>
+					</div>
+				</li>
+				<li>
+					<div class="images">
+						<img src="images/src/image3.svg">
+						<h4 class="title">Dolor Sit</h4>
+						<p class="description">Lorem ipsum dorot sit amet didi dada dudu doo. Aliquam at portt titor donec. Plaaecer nisl das. Lorem ipsum dorot sit amet didi dada dudulorem ipsum datter doo. </p>
+						<button class="radius">Read More</button>
+					</div>
+				</li>
+			</ul>
+		</div>
 	</section>
-	<footer>
-		<p>Markup Tito Agudleo</p>
+	<footer class="footer">
+			<div class="row">
+				<div class="large-8 large-centered columns">
+					<section class="login">
+						<p>Sign up for our newsletter to receive the latest news about our company.</p>
+						<div class="row">
+							<div class="large-4 medium-4 small-12 columns">
+								<select>
+							        <option value="husker">Select your Country</option>
+							        <option value="starbuck">Option</option>
+							        <option value="hotdog">Option</option>
+							        <option value="apollo">Option</option>
+						        </select>
+							</div>
+							<div class="large-8 medium-8 small-12 columns">
+								<div class="row collapse">
+							        <div class="small-9 columns">
+							        	<input type="text" placeholder="Your email address">
+							        </div>
+							        <div class="small-3 columns">
+							        	<a href="#" class="button postfix">Suscribe</a>
+							        </div>
+							    </div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
 	</footer>
 	<script type="text/javascript" src="js/build/app.js"></script>
 	<script type="text/javascript" src="foundation/bower_components/foundation/js/foundation.min.js"></script>

@@ -4,6 +4,7 @@
 var gulp = require('gulp'),
   	concat = require('gulp-concat'),
     svgSprite = require("gulp-svg-sprites"),
+    plumber = require('gulp-plumber'),
     sass = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-minify-css'),
@@ -41,7 +42,8 @@ gulp.task('styles', function() {
 gulp.task('sprites', function () {
     return gulp.src('assets/svg/*.svg')
       .pipe(svgSprite())
-      .pipe(gulp.dest("assets"))
+      .pipe(gulp.dest("assets/build"))
+      .pipe(notify({ message: 'Images task complete' }));
 });
 
 gulp.task('watch', function() {
