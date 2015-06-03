@@ -4,11 +4,57 @@
 
 html, body, #background {
   height: 100%;
+  /*font-family:'Proxima Nova Alt Light';*/
   font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Montserrat', sans-serif;
+}
+
+#background {
+  background-image: url("../../images/back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-top: 10rem;
+  margin-bottom: -142px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.page-wrap * {
+  color: white;
+  text-align: center;
+}
+.page-wrap p {
+  font-size: 22px;
+  margin: 0;
+}
+.page-wrap h1 {
+  font-weight: bold;
+}
+.page-wrap button {
+  background-color: white;
+  color: #57AB4A;
+  text-transform: uppercase;
+  margin-top: 10rem;
+  font-size: 10px;
+  padding: 1rem 2rem;
+}
+
+.site-footer, .page-wrap:after {
+  height: 142px;
+}
+
+.site-footer {
+  background: orange;
 }
 
 nav {
@@ -34,42 +80,21 @@ nav section.navigation ul {
 nav section.navigation ul li {
   margin-left: 1rem;
 }
-nav section.navigation ul li.active {
+nav section.navigation ul li a {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+nav section.navigation ul li.active, nav section.navigation ul li:hover {
   border-bottom: 1px #70df88 solid;
   padding-bottom: 0.2rem;
 }
 
-#gradient {
-  width: 100%;
-  content: " ";
-  height: 100%;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.1);
-  position: absolute;
+#section1 .section-head {
+  margin: 5rem;
+  text-align: center;
 }
-
-#background {
-  background-image: url("../../images/back.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px;
-}
-
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-
-.site-footer, .page-wrap:after {
-  height: 142px;
-}
-
-.site-footer {
-  background: orange;
+#section1 .section-head p {
+  color: #AFAFAF;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
 }

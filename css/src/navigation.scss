@@ -1,0 +1,33 @@
+nav {
+	margin-top: 2rem;
+
+	a {
+		color: white;
+	}
+	ul {
+		list-style: none;		
+	}
+	ul.logo-area {
+		display: inline-block;
+		float: left;
+	}
+	section.navigation {
+		ul {
+			margin: 1rem 0;
+			display: inline-flex;
+		
+			li {
+				margin-left: 1rem;
+				a {
+					text-transform: uppercase;
+					font-size: 12px;
+				}
+			}
+
+			li.active, li:hover {
+				border-bottom: 1px #70df88 solid;
+	  			padding-bottom: 0.2rem;
+			}
+		}
+	}
+}

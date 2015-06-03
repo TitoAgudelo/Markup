@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+}
+
+html, body, #background {
+	height: 100%;
+	/*font-family:'Proxima Nova Alt Light';*/
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#background {
+	background-image: url('../../images/back.png');
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+
+.page-wrap {
+	min-height: 100%;
+	margin-top: 10rem;
+	margin-bottom: -142px; 
+}
+
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+
+.page-wrap {
+	
+	* {
+		color: white;
+		text-align: center;
+	}
+	
+	p {
+		font-size: 22px;
+		margin: 0;
+	}
+
+	h1 {
+		font-weight: bold;
+	}
+
+	button {
+		background-color: white;
+		color: #57AB4A;
+		text-transform: uppercase;
+		margin-top: 10rem;
+		font-size: 10px;
+		padding: 1rem 2rem;
+	}
+}
+
+.site-footer, .page-wrap:after {
+	height: 142px; 
+}
+
+.site-footer {
+	background: orange;
+}
