@@ -32,10 +32,18 @@ h1, h2, h3, h4, h5, h6, p, a {
 	p {
 		font-size: 22px;
 		margin: 0;
+
+		@media screen and (max-width: 600px) {
+			font-size: 10px;
+		}
 	}
 
 	h1 {
 		font-weight: bold;
+
+		@media screen and (max-width: 600px) {
+			font-size: 12px;
+		}
 	}
 
 	button {
